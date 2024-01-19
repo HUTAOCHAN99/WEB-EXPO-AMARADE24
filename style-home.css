@@ -1,0 +1,177 @@
+/* style-home.css */
+
+body {
+  background-image: url(home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: rgb(33, 194, 76, 0.8);
+  text-align: center;
+  padding: 0.03px; /* Sesuaikan dengan kebutuhan Anda */
+}
+
+.footer {
+  background-color: rgb(33, 194, 76, 0.8);
+  text-align: center;
+  margin-top: auto;
+  padding: 0.03px;
+  p {
+    font-size: 24px;
+  }
+}
+
+.menu {
+  background-color: azure;
+  text-align: center;
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: auto;
+  -webkit-box-shadow: inset -1px 2px 5px 3px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: inset -1px 2px 5px 3px rgba(0, 0, 0, 0.63);
+  box-shadow: inset -1px 2px 5px 3px rgba(0, 0, 0, 0.63);
+}
+.pilih{
+    font-size: 32px;
+}
+.list {
+  position: relative;
+  h2{
+    display: flex;
+    align-items: center;
+  }
+  h2:hover {
+    background-color: rgb(34, 229, 20);
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    transition-delay: 0.3s;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+  h2 {
+    display: flex;
+    position: relative;
+    padding-right: 10px;
+  }
+  a {
+    color: black;
+    height: 200%;
+    width: 200%;
+    display: block;
+    text-decoration: none;
+  }
+}
+/* bagian fakultas*/
+.fakultas {
+  text-align: left;
+  background-color: rgb(28, 191, 16, 0.8);
+  padding: 10px;
+}
+
+/* end fakultas */
+/* rektorat */
+.rektorat {
+  text-align: left;
+  background-color: rgb(28, 191, 16, 0.8);
+  padding: 10px;
+}
+/* end rektorat */
+/* fasilitas  */
+.fasilitas {
+  text-align: left;
+  background-color: rgb(28, 191, 16, 0.8);
+  padding: 10px;
+}
+/* beasiswa */
+.beasiswa {
+  text-align: left;
+  background-color: rgb(28, 191, 16, 0.8);
+  padding: 10px;
+}
+/* end beasiswa */
+/* end fasilitas */
+/* botton  */
+/* index-botton */
+.index-botton {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+.index-botton a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.index-botton:active {
+  transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  border-radius: 5;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  -ms-border-radius: 5;
+  -o-border-radius: 5;
+}
+.index-botton:hover {
+  transform: scale(0.9);
+  transition: 0.5 ease-in-out;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transition-delay: 0.2s;
+  border-radius: 5;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  -ms-border-radius: 5;
+  -o-border-radius: 5;
+  -webkit-transition: 0.5 ease-in-out;
+  -moz-transition: 0.5 ease-in-out;
+  -ms-transition: 0.5 ease-in-out;
+  -o-transition: 0.5 ease-in-out;
+}
+/* index-botton end */
+/* teks welcome */
+.welcome {
+  font-size: 1.5em;
+  font-weight: 1000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  text-shadow: 2px 2px 2px white;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animasi-berjalan 20s linear infinite;
+  -webkit-animation: animasi-berjalan 20s linear infinite;
+}
+
+@keyframes animasi-berjalan {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* welcome end */
+/* botton end */

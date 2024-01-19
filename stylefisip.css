@@ -1,0 +1,91 @@
+body {
+  background-color: rgba(248, 248, 248, 0.8);
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  background-color: rgb(33, 194, 76, 0.8);
+}
+.header .ndas {
+  margin-left: 90px;
+}
+.omah {
+  a {
+    text-decoration: none;
+    display: block;
+    color: black;
+  }
+  margin-left: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.omah:hover {
+  background-color: rgba(245, 242, 242, 0.8);
+  border: 3px solid green;
+}
+.pftm {
+  display: flex;
+  align-content: center;
+  video {
+    margin-left: 420px;
+    margin-top: 20px;
+  }
+}
+.akreditasi {
+  /* margin-left: 540px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  th {
+    background-color: rgb(33, 194, 76, 0.8);
+  }
+}
+.akreditasi table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-right: 20px;
+}
+.akreditasi th ,.akreditasi td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+.akreditasi th{
+  background-color: rgb(33, 194, 76, 0.8);
+  text-align: center;
+}
+.isi {
+  display: flex;
+  margin-left: 20px;
+}
+.desc p {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+}
+.desc{
+  margin-right: 350px;
+  text-align: justify;
+  margin-left: 20px;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.footer {
+  background-color: rgb(33, 194, 76, 0.8);
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-top: auto;
+}
+.list{
+  font-size: 20px;
+}
+

@@ -1,0 +1,138 @@
+body {
+  background-image: url(home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgb(28, 191, 16, 0.8);
+  
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(33, 194, 76, 0.8);
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.header .omah a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  background-color: aliceblue;
+  border: 1px solid black;
+  margin-left: 10px;
+  position: relative;
+}
+.omah:hover {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.header .ndas {
+  font-weight: 1000;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.fakultas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.fakultas h2 {
+  color:rgb(28, 191, 16);
+  text-shadow: 2px 2px 2px white;
+  font-weight:800;
+  margin-top: 20px;
+  text-align: left;
+  height: 100px;
+  width: 400px;
+  background-color: rgba(255, 255, 255);
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-box-shadow: inset -1px 2px 5px 3px rgba(137, 126, 126, 0.63);
+  -moz-box-shadow: inset -1px 2px 5px 3px  rgba(137, 126, 126, 0.63);
+  box-shadow: inset -1px 2px 5px 3px rgba(137, 126, 126, 0.63);
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+ .fakultas h2 a{
+    text-decoration: none;
+    display: block;
+    color:rgb(28, 191, 16);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.fakultas h2:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+/* FTM */
+.fakultas .ftm {
+  background-image: url(ftm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* FTI */
+.fakultas .fti {
+    background-image: url(FTI.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* faper */
+.fakultas .faper{
+    background-image: url(faper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fakultas .feb{
+    background-image: url(feb.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fakultas .fisip{
+    background-image: url(fisip.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* foooter */
+.footer {
+  background-color: rgb(33, 194, 76, 0.8);
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-top: auto;
+}

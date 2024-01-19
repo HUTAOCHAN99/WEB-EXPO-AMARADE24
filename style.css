@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(UPN.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.teks-bergerak {
+    margin-bottom: 10px;
+}
+
+h2 {
+    position: relative;
+    font-size: 8vw;
+    color: rgb(33, 194, 76,0.5);
+    -webkit-text-stroke: 0.3vw #000000;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+h2::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 80%;
+    color: #0f7847;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 5px solid #01fe87;
+    overflow: hidden;
+    animation: animate 10s linear infinite;
+    -webkit-animation: animate 10s linear infinite;
+}
+
+.universitas {
+    color: rgb(0, 0, 0);
+    margin-top: 1px; 
+    font-size: 24px;
+}
+
+.tekan {
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(1, 254, 135,0.5);
+}
+.tekan:hover{
+    background-color: rgb(1, 255, 135,0.8);
+    transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition-delay: 0.2s;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;
+    }
+}
